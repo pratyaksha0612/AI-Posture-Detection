@@ -4,13 +4,10 @@
 
 This project presents a real-time computer vision system for detecting and evaluating human posture using pose estimation. The system analyzes body alignment and provides immediate feedback regarding posture quality without requiring any training dataset.
 
----
-
 ## 2. Objective
 
 To develop an efficient and lightweight posture monitoring system that identifies incorrect ergonomic positions and provides real-time feedback using computer vision techniques.
 
----
 
 ## 3. Features
 
@@ -24,7 +21,6 @@ To develop an efficient and lightweight posture monitoring system that identifie
 * Time-based alert mechanism for prolonged poor posture
 * Clean and structured user interface
 
----
 
 ## 4. Methodology
 
@@ -38,13 +34,10 @@ The system utilizes **MediaPipe Pose** for extracting human body landmarks from 
 
 A posture is classified as incorrect if any of the defined conditions are violated.
 
----
-
 ## 5. System Architecture
 
 Input (Webcam) → Pose Estimation → Landmark Extraction → Rule-Based Analysis → Output Display
 
----
 
 ## 6. Technologies Used
 
@@ -53,7 +46,6 @@ Input (Webcam) → Pose Estimation → Landmark Extraction → Rule-Based Analys
 * MediaPipe
 * NumPy
 
----
 
 ## 7. Installation and Execution
 
@@ -64,8 +56,6 @@ pip install -r requirements.txt
 ### Run the application:
 
 python src/main.py
-
----
 
 ## 8. Output
 
@@ -81,13 +71,9 @@ python src/main.py
 
 ![Alert](outputs/alert.png)
 
----
-
 ## 9. Results
 
 The system successfully detects posture in real time and identifies specific ergonomic issues. It provides clear visual feedback and alerts when poor posture is sustained.
-
----
 
 ## 10. Future Scope
 
@@ -96,7 +82,6 @@ The system successfully detects posture in real time and identifies specific erg
 * Use of machine learning models for enhanced accuracy
 * Personalized posture correction suggestions
 
----
 
 ## 11. Conclusion
 
@@ -104,6 +89,5 @@ The project demonstrates the application of computer vision in ergonomic monitor
 
 ---
 
-## 12. Author
 
 Pratyaksha Singh
